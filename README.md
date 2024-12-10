@@ -1,2 +1,2 @@
 # Projeto-portfolio
-teste de layot, utilizando css,html,javascript
+teste de layout, utilizando css,html,javascript
