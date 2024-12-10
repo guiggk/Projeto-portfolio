@@ -1,11 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
+    height: 100vh;
     background-color: black;
     color: white;
 }
-.introducao{
+
+.cabeca{
+    width: 100%;
+    background: linear-gradient(to bottom,rgb(10, 230, 208),black);
+    justify-content: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
+}
+.introducao{
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    font-size: 400%;
+    color: rgb(4, 255, 226);
+    background-color: transparent;
+    
 }
 .corpo{
     display: flex;
